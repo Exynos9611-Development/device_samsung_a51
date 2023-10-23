@@ -40,7 +40,5 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-   mixer_gains.xml \
-   mixer_gains_ti.xml \
    mixer_paths.xml \
    mixer_paths_ti.xml

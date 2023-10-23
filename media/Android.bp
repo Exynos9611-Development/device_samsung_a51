@@ -5,18 +5,7 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-   name: "mixer_gains.xml",
-   src: "mixer_gains.xml",
-   vendor: true,
-}
-
-prebuilt_etc {
    name: "mixer_paths_ti.xml",
    src: "mixer_paths_ti.xml",
    vendor: true,
 }
-
-prebuilt_etc {
-   name: "mixer_gains_ti.xml",
-   src: "mixer_gains_ti.xml",
-   vendor: true,                                                                                                                                }
