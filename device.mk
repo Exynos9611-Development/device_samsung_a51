@@ -37,3 +37,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Init.rc
 PRODUCT_PACKAGES += \
     fingerprint_common.rc
+
+# Media
+PRODUCT_PACKAGES += \
+   mixer_gains.xml \
+   mixer_gains_ti.xml \
+   mixer_paths.xml \
+   mixer_paths_ti.xml
