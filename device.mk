@@ -42,3 +42,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    mixer_paths.xml \
    mixer_paths_ti.xml
+
+PRODUCT_SOONG_NAMESPACES += \
+   $(DEVICE_PATH)
