@@ -37,6 +37,7 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 
 ## Filesystem config
 include device/samsung/universal9611-common/fsconfig_dynamic.mk
+include device/samsung/universal9611-common/fingerprint/udfps/BoardConfig.mk
 
 ## Prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

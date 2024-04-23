@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-# FOD
-TARGET_HAS_FOD := true
 # NFC
 TARGET_USES_NXP_NFC := true
 

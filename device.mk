@@ -20,6 +20,8 @@ DEVICE_PATH := device/samsung/a51
 $(call inherit-product, device/samsung/universal9611-common/common.mk)
 # Inherit A51 blobs
 $(call inherit-product, vendor/samsung/a51/a51-vendor.mk)
+# Fingerprint UDFPS
+$(call inherit-product, device/samsung/universal9611-common/fingerprint/udfps/config.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
